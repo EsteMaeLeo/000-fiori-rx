@@ -2,6 +2,10 @@
     xmlns:mvc="sap.ui.core.mvc"
     xmlns="sap.m">
     <Page id="page" title="{i18n>title}">
-    <Text text="Hello Invoices"></Text>
+        <content>
+            <Panel headerText="Selection Screen">
+                <Label id="labelShipname" text="Ship name"  class="sapUiSmallMargin"></Label>
+            </Panel>
+        </content>
     </Page>
 </mvc:View>
